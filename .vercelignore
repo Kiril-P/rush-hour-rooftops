@@ -10,3 +10,6 @@ AUDIT.md
 PLAYTEST.md
 IMPLEMENTATION.md
 RUSH_HOUR_ROOFTOPS_PRD.md
+
+.env*
+.vercel

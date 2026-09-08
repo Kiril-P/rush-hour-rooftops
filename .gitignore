@@ -1,8 +1,7 @@
 node_modules/
 dist/
-.vercel/
-.env
-.env.*
+.vercel
+.env*
 !.env.example
 .DS_Store
 *.log

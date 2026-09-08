@@ -1,5 +1,7 @@
 # Rush Hour Rooftops
 
+**[Play online](https://rush-hour-rooftops.vercel.app/)** · [Source](https://github.com/Kiril-P/rush-hour-rooftops)
+
 A playable city of garden towers above the clouds. Connect matching homes and stations, keep cabins moving, and reshape your network as the skyline grows.
 
 ## Run
@@ -67,7 +69,9 @@ The suite covers 43 deterministic simulation/input cases and 11 browser regressi
 
 ## Deploy on Vercel
 
-Import this repository into Vercel. The checked-in `vercel.json` selects Vite, runs `npm ci` and `npm run build`, and serves `dist/`. No environment variables or backend services are required. The game synthesizes its soundtrack locally and includes its fonts.
+The live production game is at **https://rush-hour-rooftops.vercel.app/**.
+
+Import this repository into Vercel. The checked-in `vercel.json` selects Vite, runs `npm ci` and `npm run build`, and serves `dist/`. No environment variables or backend services are required. The current deployment uses Vercel CLI. To enable automatic deployments from GitHub, connect your GitHub account in Vercel account settings, then run `vercel git connect`. The game synthesizes its soundtrack locally and includes its fonts.
 
 ## Code map
 

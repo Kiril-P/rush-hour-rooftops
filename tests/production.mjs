@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { chromium } from "playwright";
 import { mkdir, writeFile } from "node:fs/promises";
 await mkdir("audit", { recursive: true });
+const base = process.env.RHR_PRODUCTION_URL ?? "http://127.0.0.1:4173";
 const browser = await chromium.launch({
   executablePath: process.env.RHR_CHROMIUM,
 });
@@ -13,10 +14,10 @@ const errors = [],
   external = [];
 page.on("pageerror", (e) => errors.push(e.message));
 page.on("request", (r) => {
-  if (!r.url().startsWith("http://127.0.0.1:4173")) external.push(r.url());
+  if (!r.url().startsWith(base)) external.push(r.url());
 });
 try {
-  await page.goto("http://127.0.0.1:4173/?fixture=failure");
+  await page.goto(base + "/?fixture=failure");
   await page.locator("#board").waitFor();
   assert.equal(await page.evaluate(() => typeof window.__RHR__), "undefined");
   assert.equal(await page.locator("#modal").isVisible(), false);
