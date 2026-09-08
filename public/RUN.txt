@@ -1,0 +1,23 @@
+RUSH HOUR ROOFTOPS
+
+Serve this folder with any static HTTP server. For example:
+
+  python3 -m http.server 8000 --bind 127.0.0.1
+
+Open http://127.0.0.1:8000 in a desktop browser.
+
+Drag from a small home's bright terminal to a matching rooftop station.
+Diagonals work. Garden islands stay clear. The opening waits for you.
+Space pauses and allows building. 1 / 2 selects speed.
+Express: click two endpoints to bypass junctions.
+Interchange: upgrade a junction with three or more approaches.
+Click a roof to inspect its routes and cabin availability.
+Right-click erases. E selects sweep erasing. I selects Inspect.
+Escape cancels, closes inspection, or opens the city menu.
+Scroll or + / - zooms. Alt-drag or arrows pan. F fits the city.
+Choose supplies each week. New stations have 60 seconds of setup grace.
+Clear station overload within 30 seconds. The ? button explains all tools.
+
+The city menu includes restart and new city. After failure, inspect the network.
+Music, ambience and effects levels are in the city menu. Sound starts on your first click.
+All graphics, fonts, and audio work locally. Font licenses are in licenses/.

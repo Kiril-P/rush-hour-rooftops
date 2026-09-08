@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+audit
+audio
+screenshots
+docs
+*.zip
+AUDIT.md
+PLAYTEST.md
+IMPLEMENTATION.md
+RUSH_HOUR_ROOFTOPS_PRD.md
