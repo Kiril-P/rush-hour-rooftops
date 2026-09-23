@@ -19,15 +19,13 @@ String cable cars between rooftops and keep a city above the clouds moving throu
 
 Turn on sound: the original synthesized score, cable hum, and delivery chimes react to the city. Audio starts after interaction. Runs restart on refresh.
 
-The hero shows the repository’s populated development fixture running the normal simulation.
-
 ## Development
 
 TypeScript, Canvas 2D, Vite; original procedural audio.
 
 ```sh
-bun install
-bun run dev
+npm install
+npm run dev
 ```
 
 [Development, verification, and deployment notes](DEVELOPMENT.md).
