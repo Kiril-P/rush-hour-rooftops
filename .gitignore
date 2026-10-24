@@ -12,3 +12,4 @@ dist/
 /AUDIT.md
 /PLAYTEST.md
 /IMPLEMENTATION.md
+*.TMP
