@@ -4,7 +4,7 @@
 
 String cable cars between rooftops and keep a city above the clouds moving through rush hour.
 
-**[▶ Play in browser](https://kpetrovski.me/play/rush-hour-rooftops/)**
+**[▶ Play in browser](https://rooftops.kirilpetrovski.com/)**
 
 ![Rush Hour Rooftops: 01](docs/media/11-rush-hour-rooftops-01.png)
 
